@@ -38,7 +38,6 @@ a:link, a:visited {
   overflow: hidden;
   background-color: #333333;
   display: inline-block;
-  position: fixed;
 }
 
 li {
