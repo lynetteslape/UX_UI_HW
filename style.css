@@ -14,10 +14,6 @@ a:link, a:visited {
   color: white;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 .nav{
   list-style-type: none;
   margin: 0;
@@ -117,6 +113,7 @@ h2, h3{
   float: left;
   width: 25%;
   padding: 0 10px;
+  display: inline-block;
 }
 
 /* Remove extra left and right margins, due to padding */
