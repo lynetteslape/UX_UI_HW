@@ -22,8 +22,6 @@ a:link, a:visited {
 .column{
   float: left;
   width: 25%;
-  margin-left: 30px;
-  margin-right: 30px;
   padding: 10px;
   height: 300px; /* Should be removed. Only for demonstration */
 }
@@ -46,7 +44,6 @@ a:link, a:visited {
 }
 
 .inline-block{
-  display: inline;
   vertical-align: top;
   background-color: ;
   width: 100%;
@@ -101,8 +98,8 @@ h2, h3{
 
 .fa {
   padding: 10px;
-  font-size: 80px;
-  width: 50px;
+  font-size: 90px;
+  width: 60px;
   text-align: center;
   text-decoration: none;
   margin: 15px 12px;
@@ -125,7 +122,7 @@ h2, h3{
   color: #fff;
   background-color: #04AA6D;
   border: none;
-  border-radius: 15px;
+  border-radius: 35px;
 }
 
 * {
