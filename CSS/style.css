@@ -10,8 +10,54 @@ img{
   padding: 10px;
 }
 
-a:visited {
+a:link, a:visited {
   color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+.column{
+  float: left;
+  width: 25%;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.nav{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  display: inline-block;
+  position: fixed;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
 }
 
 .inline-block{
@@ -23,20 +69,6 @@ a:visited {
   padding: 1%;
   text-align: left;
   border-radius: 15px;
-
-}
-
-nav a{
-  background-color: black;
-  color: white;
-  display: inline-block;
-  vertical-align: top;
-  margin: 0;
-  padding:5px;
-  margin: 0;
-  width: 100%;
-  position: fixed;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .heroimage{
@@ -52,7 +84,7 @@ p{
   font-family: 'Alata', sans-serif;
 }
 
-footer a{
+footer{
   background-color: black;
   color: white;
   text-align: center;
@@ -63,6 +95,7 @@ footer a{
    margin: 0;
    font-size: 16px;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   position: fixed;
 }
 
 h2, h3{
@@ -151,7 +184,8 @@ div.card {
   border-radius: 5px;
   float: left;
   width: 25%;
-  padding: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
   height: 300px; /* Should be removed. Only for demonstration */
 }
 
@@ -172,11 +206,17 @@ div.container {
   box-sizing: border-box;
 }
 
-nav {
-  height: 50px;
-  background-color: lightgrey;
+.grid-container {
+  display: grid;
+  grid-template-columns: 80px 200px auto 30px;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
 }
-.inline-block {
-  padding: 15px;
-  display: inline-block;
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
 }
