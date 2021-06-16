@@ -48,7 +48,6 @@ a:link, a:visited {
 .inline-block{
   display: inline;
   vertical-align: top;
-  position: fixed;
   background-color: ;
   width: 100%;
   padding: 1%;
@@ -57,9 +56,9 @@ a:link, a:visited {
 }
 
 .heroimage{
-  height: 200px;
-  padding: 25px;
-  width: 400px;
+  height: 100px;
+  padding: 15px;
+  width: 300px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -102,9 +101,9 @@ h2, h3{
 }
 
 .fa {
-  padding: 20px;
-  font-size: 100px;
-  width: 30px;
+  padding: 10px;
+  font-size: 80px;
+  width: 20px;
   text-align: center;
   text-decoration: none;
   margin: 15px 12px;
@@ -137,25 +136,6 @@ h2, h3{
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
-}
-
-.btn-group button {
-  background-color: #04AA6D; /* Green background */
-  border: 1px solid green; /* Green border */
-  color: white; /* White text */
-  padding: 10px 24px; /* Some padding */
-  cursor: pointer; /* Pointer/hand icon */
-  width: 50%; /* Set a width if needed */
-  display: block; /* Make the buttons appear below each other */
-}
-
-.btn-group button:not(:last-child) {
-  border-bottom: none; /* Prevent double borders */
-}
-
-/* Add a background color on hover */
-.btn-group button:hover {
-  background-color: #3e8e41;
 }
 
 * {
