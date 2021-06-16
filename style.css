@@ -40,25 +40,9 @@ a:link, a:visited {
   display: inline-block;
 }
 
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #111111;
-}
-
 .inline-block{
   display: inline;
   vertical-align: top;
-  position: fixed;
   background-color: black;
   width: 100%;
   padding: 1%;
@@ -120,7 +104,7 @@ h2, h3{
   text-decoration: none;
   margin: 15px 12px;
   border-radius: 50%;
-  justify-content: : center;
+  justify-content: center;
   padding: 50px;
   font-style: bold;
 }
