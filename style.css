@@ -140,6 +140,19 @@ h1, h2, h3{
 }
 
 @media screen and (max-width: 600px) {
+.nav, footer{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 40%;
+  overflow: hidden;
+  background-color: ;
+  display: inline-block;
+}
+}
+
+@media screen and (max-width: 600px) {
 section{
   align: center;
   margin-left: 10%;
