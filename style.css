@@ -154,6 +154,17 @@ section{
 }
 }
 
+@media screen and (max-width: 600px) {
+.nav, .inline-block, footer{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: ;
+  display: inline-block;
+}
+
 /* Style the counter cards */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
