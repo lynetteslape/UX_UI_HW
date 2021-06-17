@@ -7,7 +7,7 @@ body, a{
 
 img{
   border-radius: 10px;
-  padding: 10px;
+  padding: 40px;
 }
 
 a:link, a:visited {
@@ -52,7 +52,7 @@ footer{
 h1, h2, h3{
   font-size: 18px;
   font-family: 'Roboto Slab', serif;
-  padding: 20px;
+  padding: 40px;
 }
 
 .fa-facebook {
