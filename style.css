@@ -19,7 +19,7 @@ a:link, a:visited {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 100%;
+  width: 90%;
   overflow: hidden;
   background-color: ;
   display: inline-block;
@@ -48,7 +48,7 @@ footer{
   color: white;
   text-align: center;
   padding: 15px;
-   width: 100%;
+   width: 90%;
    left: 0;
    bottom: 0;
    margin: 0;
@@ -152,17 +152,6 @@ section{
   margin-bottom: 20px;
   width: 100px;
 }
-}
-
-@media screen and (max-width: 600px) {
-.nav, .inline-block, footer{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  overflow: hidden;
-  background-color: ;
-  display: block;
 }
 
 /* Style the counter cards */
