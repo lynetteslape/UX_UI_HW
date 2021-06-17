@@ -162,7 +162,7 @@ section{
   width: 100%;
   overflow: hidden;
   background-color: ;
-  display: inline-block;
+  display: block;
 }
 
 /* Style the counter cards */
