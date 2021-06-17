@@ -36,6 +36,12 @@ p{
   font-family: 'Alata', sans-serif;
 }
 
+section{
+  align: center;
+  margin-left: 50%;
+  margin-right: 50%;
+}
+
 footer{
   background-color: ;
   color: white;
