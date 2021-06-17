@@ -36,7 +36,7 @@ p{
   font-family: 'Alata', sans-serif;
 }
 
-section, p{
+section, p, h1, img{
   align: center;
   margin-left: 10%;
   margin-right: 10%;
@@ -136,7 +136,7 @@ h1, h2, h3{
 }
 
 @media screen and (max-width: 600px) {
-section, p{
+section, p, h1, img{
   align: center;
   margin-left: 10%;
   margin-right: 10%;
