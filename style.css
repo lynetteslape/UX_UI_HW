@@ -25,9 +25,9 @@ a:link, a:visited {
 }
 
 .heroimage{
-  height: 100px;
+  height: 200px;
   padding: 15px;
-  width: 300px;
+  width: 400px;
 }
 
 p{
@@ -131,9 +131,9 @@ h1, h2, h3{
 
 @media screen and (max-width: 600px) {
  .heroimage{
-  height: 100px;
+  height: 90px;
   padding: 15px;
-  width: 300px;
+  width: 100px;
 }
 }
 
