@@ -26,7 +26,7 @@ a:link, a:visited {
 
 .heroimage{
   height: 200px;
-  padding: 15px;
+  padding: 25px;
   width: 400px;
 }
 
@@ -52,7 +52,7 @@ footer{
 h1, h2, h3{
   font-size: 18px;
   font-family: 'Roboto Slab', serif;
-  padding: 10px;
+  padding: 20px;
 }
 
 .fa-facebook {
