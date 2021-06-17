@@ -48,8 +48,10 @@ footer{
   display: inline-block;
 }
 
-h2, h3{
+h1, h2, h3{
+  font-size: 18px;
   font-family: 'Roboto Slab', serif;
+  padding: 10px;
 }
 
 .fa-facebook {
@@ -69,7 +71,7 @@ h2, h3{
 
 .fa {
   padding: 5px;
-  font-size: 100px;
+  font-size: 90px;
   width: 50px;
   text-align: center;
   text-decoration: none;
