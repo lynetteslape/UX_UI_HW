@@ -136,6 +136,14 @@ h1, h2, h3{
 }
 
 @media screen and (max-width: 600px) {
+section{
+  align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+}
+
+@media screen and (max-width: 600px) {
  .heroimage{
   height: 90px;
   padding: 25px;
