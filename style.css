@@ -82,7 +82,7 @@ h1, h2, h3{
   width: 50px;
   text-align: center;
   text-decoration: none;
-  margin: 15px 12px;
+  margin: 20px 15px;
   border-radius: 50%;
   justify-content: center;
   font-style: bold;
@@ -148,7 +148,7 @@ section{
  .heroimage{
   height: 90px;
   padding: 25px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
   width: 100px;
 }
 }
