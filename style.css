@@ -12,7 +12,11 @@ img{
 
 a:link, a:visited {
   color: #252C38;
-;
+}
+
+li{
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .nav{
