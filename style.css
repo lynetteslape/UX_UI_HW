@@ -5,9 +5,10 @@ body, a{
   color: #252C38;
 }
 
-img{
+img, p, h1{
   border-radius: 10px;
   padding: 20px;
+  justify-content: center;
 }
 
 a:link, a:visited {
