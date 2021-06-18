@@ -17,6 +17,7 @@ a:link, a:visited {
 li{
   margin-right: 10px;
   margin-left: 10px;
+  padding: 5px;
 }
 
 .nav{
