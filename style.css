@@ -13,6 +13,7 @@ body, a{
   margin: 10px;
   padding: 20px;
   font-size: 30px;
+  align-item: center;
 }
 
 img, p, h1{
