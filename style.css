@@ -3,6 +3,7 @@ body, a{
   font-size: 16px;
   font-family: 'Alata', sans-serif;
   color: #252C38;
+  background-image: url('maui_beach.png');
 }
 
 img, p, h1{
@@ -49,6 +50,7 @@ section{
   align: center;
   margin-left: 25%;
   margin-right: 25%;
+  background-color: white;
 }
 
 footer{
