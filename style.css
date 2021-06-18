@@ -47,8 +47,8 @@ p{
 
 section{
   align: center;
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 footer{
@@ -163,6 +163,15 @@ section{
   width: 100px;
 }
 }
+
+@media screen and (max-width: 600px) {
+section{
+  align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+}
+  
 
 /* Style the counter cards */
 .card {
