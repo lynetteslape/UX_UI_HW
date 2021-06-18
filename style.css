@@ -50,8 +50,8 @@ p{
 
 section{
   align: center;
-  margin-left: 45%;
-  margin-right: 45%;
+  margin-left: 25%;
+  margin-right: 25%;
   background-color: white;
   border-radius: 10px;
 }
@@ -163,8 +163,8 @@ h1, h2, h3{
 @media screen and (max-width: 600px) {
 section{
   align: center;
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 }
 
