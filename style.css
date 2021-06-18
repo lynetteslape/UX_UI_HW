@@ -4,6 +4,7 @@ body, a{
   font-family: 'Alata', sans-serif;
   color: #252C38;
   background-image: url("maui_beach.png");
+  position: no-repeat;
 }
 
 img, p, h1{
