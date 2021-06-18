@@ -48,9 +48,10 @@ p{
 
 section{
   align: center;
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 35%;
+  margin-right: 35%;
   background-color: white;
+  border-radius: 10px;
 }
 
 footer{
@@ -169,22 +170,8 @@ section{
 @media screen and (max-width: 600px) {
 section{
   align: center;
-  margin-left: 35%;
-  margin-right: 35%;
-}
-}
-  
-@media screen and (max-width: 600px) {
-.fa {
-  padding: 10px;
-  font-size: 80px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 20px 15px;
-  border-radius: 50%;
-  justify-content: center;
-  font-style: bold;
+  margin-left: 45%;
+  margin-right: 45%;
 }
 }
 
