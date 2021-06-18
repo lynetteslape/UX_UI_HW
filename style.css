@@ -5,17 +5,6 @@ body, a{
   color: #252C38;
 }
 
-.flex-container {
-  display: flex;
-}
-
-.flex-container > div {
-  margin: 10px;
-  padding: 20px;
-  font-size: 30px;
-  align-item: center;
-}
-
 img, p, h1{
   border-radius: 10px;
   padding: 20px;
@@ -58,8 +47,8 @@ p{
 
 section{
   align: center;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 30%;
+  margin-right: 30%;
 }
 
 footer{
