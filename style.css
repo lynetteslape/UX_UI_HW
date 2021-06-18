@@ -172,6 +172,19 @@ section{
 }
 }
   
+@media screen and (max-width: 600px) {
+.fa {
+  padding: 10px;
+  font-size: 80px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 20px 15px;
+  border-radius: 50%;
+  justify-content: center;
+  font-style: bold;
+}
+}
 
 /* Style the counter cards */
 .card {
