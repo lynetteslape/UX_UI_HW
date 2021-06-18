@@ -5,6 +5,7 @@ body, a{
   color: #252C38;
   background-image: url("maui_beach.png");
   position: no-repeat;
+  position: cover;
 }
 
 img, p, h1{
