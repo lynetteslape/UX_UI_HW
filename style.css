@@ -3,8 +3,9 @@ body, a{
   font-size: 16px;
   font-family: 'Alata', sans-serif;
   color: #252C38;
-  background-image: url("maui_beach.png");
-  position: no-repeat;
+  background-image: url("maui_beach.png"), fixed;
+  background-repeat: no-repeat;
+  background-position: fixed;
   position: cover;
 }
 
