@@ -8,8 +8,6 @@ body{
   position: cover;
 }
 
-#wrapper{ width:100%; float:left; height:auto; border:1px solid #5694cf;}
-
 img, p, h1{
   border-radius: 10px;
   padding: 20px;
@@ -209,6 +207,10 @@ div.desc {
   width: 24.99999%;
 }
 
+@media only screen and (max-width: 500px) {
+#wrapper{ width:100%; float:left; height:auto; border:1px solid #5694cf;}
+}
+  
 @media only screen and (max-width: 700px) {
   .responsive {
     width: 49.99999%;
