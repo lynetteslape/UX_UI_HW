@@ -154,7 +154,7 @@ h1, h2, h3{
 
 @media screen and (max-width: 600px) {
  .heroimage{
-  height: 90px;
+  height: 100px;
   padding: 25px;
   margin-bottom: 20px;
   width: 100px;
