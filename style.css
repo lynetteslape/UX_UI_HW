@@ -220,13 +220,6 @@ div.desc {
   }
 }
 
-@media only screen and (max-width: 500px) {
-  embed {
-    width: 100px;
-    height: 300px;
-  }
-}
-
 .clearfix:after {
   content: "";
   display: table;
