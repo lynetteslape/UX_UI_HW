@@ -229,6 +229,10 @@ div.desc {
 div.gallery {
   border: 1px solid #ccc;
   justify content: center;
+  background-color: white;
+  padding: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 div.gallery:hover {
