@@ -1,4 +1,4 @@
-body, h1, h2{
+body{
   width: 100%;
       font-family: 'Alata', sans-serif;
   font-size: 16px;
@@ -80,7 +80,7 @@ footer{
   position: bottom;
 }
 
-h1{
+h1, h2, h3{
   font-size: 18px;
   font-family: 'Roboto Slab', serif;
   padding: 40px;
