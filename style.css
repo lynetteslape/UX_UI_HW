@@ -9,6 +9,11 @@ body, h1, h2, p{
     text-decoration: none;
 }
 
+a{
+  text-decoration: none;
+       font-family: 'Alata', sans-serif; 
+}
+
 img, p, h1, h2{
   border-radius: 10px;
   padding: 20px;
