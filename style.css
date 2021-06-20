@@ -79,8 +79,14 @@ a{
  font-family: 'Roboto Slab', serif;
 }
 
-h1, h2, h3{
-  font-size: 18px;
+h1{
+  font-size: 24px;
+  font-family: 'Roboto Slab', serif;
+  padding: 30px;
+}
+
+h2{
+ font-size: 18px;
   font-family: 'Roboto Slab', serif;
   padding: 30px;
 }
