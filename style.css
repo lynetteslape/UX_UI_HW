@@ -55,6 +55,7 @@ section{
   background-color: white;
   border-radius: 10px;
   padding: 10px;
+  justify-content: center;
 }
 
 footer{
@@ -163,10 +164,10 @@ h1, h2, h3, a{
 
 @media screen and (max-width: 600px) {
 section{
-  align: center;
   margin-left: 5%;
   margin-right: 5%;
   padding: 10px;
+  justify-conter: center;
 }
 }
 
