@@ -33,6 +33,7 @@ li{
   background-color: ;
   display: inline-block;
   position: top;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .heroimage{
@@ -71,6 +72,7 @@ footer{
    font-size: 16px;
   display: inline-block;
   position: bottom;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 a{
@@ -239,6 +241,7 @@ div.desc {
   position: top;
   margin-left: 10px;
   margin-right: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 }
 
