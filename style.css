@@ -1,7 +1,6 @@
-body, h1, h2{
+body{
   width: 100%;
   font-size: 16px;
-  font-family: 'Alata', sans-serif;
   color: #252C38;
   background-image: url("maui_beach.png");
   background-repeat: repeat;
@@ -9,7 +8,7 @@ body, h1, h2{
     text-decoration: none;
 }
 
-a{
+h1, h2, a{
   text-decoration: none;
     font-family: 'Alata', sans-serif;
 
