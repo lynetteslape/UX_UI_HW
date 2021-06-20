@@ -123,7 +123,6 @@ h2{
     opacity: 0.7;
 }
 
-}
 .button {
   padding: 10px 20px;
   font-size: 24px;
@@ -309,4 +308,51 @@ div.desc {
   content: "";
   display: table;
   clear: both;
+}
+
+@media only screen and (max-width: 500px) {
+p{
+  justify-content: center;
+  padding: 20px;
+  font-size: 16px;
+  font-family: 'Alata', sans-serif;
+    font-size: 16px;
+}
+}
+
+@media only screen and (max-width: 500px) {
+a{
+ font-family: 'Roboto Slab', serif;
+}
+}
+  
+@media only screen and (max-width: 500px) {
+h1{
+  font-size: 24px;
+  font-family: 'Roboto Slab', serif;
+  padding: 30px;
+}
+}
+
+@media only screen and (max-width: 500px) {
+h2{
+ font-size: 18px;
+  font-family: 'Roboto Slab', serif;
+  padding: 30px;
+}
+}
+
+@media only screen and (max-width: 500px) {
+.button {
+  padding: 10px 20px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #252C38;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 35px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 }
