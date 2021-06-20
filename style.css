@@ -16,6 +16,7 @@ img, p, h1{
 
 a:link, a:visited {
   color: #252C38;
+  text-decoration: none;
 }
 
 li{
