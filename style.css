@@ -220,6 +220,19 @@ div.desc {
   }
 }
 
+@media only screen and (max-width: 500px) {
+.nav{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: ;
+  display: inline-block;
+  position: top;
+}
+}
+
 .clearfix:after {
   content: "";
   display: table;
