@@ -9,6 +9,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com"> 
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <div class="nav" style="font-size: 16px; background-color: #8299C4; border-radius: 5px;">
@@ -29,7 +30,7 @@ few design components I put together include a logo design, drop-down button men
 placing images, HTML/CSS, entering content from a spreadsheet, and inserting it into a table.
 I helped clean up gaps of white space by inputting line-height into the CSS and HTML in many
 different areas on the site. 
-  <a href="http://vaccinationrewards.org"><strong><style="color: #8299C4; font-size: 18px;">Click here for this website:</strong></a></p>
+  <a href="http://vaccinationrewards.org"><strong><style="color: #8299C4; font-size: 18px;"><div id="div1" class="fa"></div>Click here for this website:</strong></a></p>
     </section>
 
            <div class="inline-block" style="background-color: #8299C4; padding: 5px; width: 100%; border-radius: 5px;">
@@ -40,5 +41,17 @@ different areas on the site.
         <a href="https://www.linkedin.com/in/lynette-slape-35a262122" class="fa fa-linkedin"></a>
       </div>
 </div>
+    <script>
+function brakechain() {
+  var a;
+  a = document.getElementById("div1");
+  a.innerHTML = "&#xf0c1;";
+  setTimeout(function () {
+      a.innerHTML = "&#xf127;";
+    }, 1000);
+}
+brakechain();
+setInterval(brakechain, 2000);
+</script>
     </body>
     </html>
