@@ -1,4 +1,4 @@
-body, h1, h2, a{
+body, h1, h2{
   width: 100%;
   font-size: 16px;
   font-family: 'Alata', sans-serif;
@@ -7,8 +7,13 @@ body, h1, h2, a{
   background-repeat: repeat;
   position: cover;
     text-decoration: none;
-
 }
+
+a{
+  text-decoration: none;
+    font-family: 'Alata', sans-serif;
+
+  {
 
 img, p, h1{
   border-radius: 10px;
