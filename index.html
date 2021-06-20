@@ -4,6 +4,7 @@
   <title>UX/UI-Portfolio</title>
   <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -24,7 +25,8 @@
 <p>I am a graphic designer.</p>
 <p>I like to put my creativity to work with pen and sketchbook including other ways with UX/UI, illustration, logo design, and wordpress website design.  I enjoy solving problems visually in a user friendly fashion. My other skills are designing content that includes page-layout, illustration, and website design.</p>
            <p>I love to put my creativity to great use with a pen and sketchbook</p>
-<p style="float: center;"><a href="work.html"><style="color: black;"><style="color: #8299C4; font-size: 18px;"><strong>Click here to learn more about my work:</strong></a></p>
+             <div id="div1" class="fa">
+<p style="float: center;"><a href="work.html"><style="color: black;"><style="color: #8299C4; font-size: 18px;"><strong>Click here to learn more about my work:</strong></a></p></div>
  <button style="font-size:18px; border-radius: 40px; align: center; padding: 10px; background-color: #8299C4; color: white;" class="button"><a href="gdportfolio.html">GD Portfolio</a></button>
   <button style="font-size:18px; border-radius: 40px; align: center; padding: 10px; background-color: #8299C4; color: white;" class="button"><a href="resumedoc.pdf">Resume</a></button>
           </div>
@@ -52,6 +54,18 @@
       <a href="https://www.instagram.com/lynetteslape/?hl=en" class="fa fa-instagram"></a>
         <a href="https://www.linkedin.com/in/lynette-slape-35a262122" class="fa fa-linkedin"></a>
       </div>
-</div>                                                             
+</div>    
+  <script>
+function brakechain() {
+  var a;
+  a = document.getElementById("div1");
+  a.innerHTML = "&#xf0c1;";
+  setTimeout(function () {
+      a.innerHTML = "&#xf127;";
+    }, 1000);
+}
+brakechain();
+setInterval(brakechain, 2000);
+</script>
     </body>
     </html>
