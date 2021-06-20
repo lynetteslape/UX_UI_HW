@@ -230,6 +230,8 @@ div.desc {
   background-color: ;
   display: inline-block;
   position: top;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 }
 
