@@ -10,7 +10,7 @@ body{
 img{
   justify-content: center;
   border-radius: 10px;
-  padding: 20px;
+  padding: 15px;
 }
 
 a:link, a:visited {
@@ -43,7 +43,7 @@ li{
 
 p{
   justify-content: center;
-  padding: 40px;
+  padding: 30px;
   font-family: 'Alata', sans-serif;
     font-size: 16px;
 }
