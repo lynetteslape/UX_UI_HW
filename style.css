@@ -6,6 +6,8 @@ body{
   background-image: url("maui_beach.png");
   background-repeat: repeat;
   position: cover;
+    text-decoration: none;
+
 }
 
 img, p, h1{
