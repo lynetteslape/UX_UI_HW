@@ -373,6 +373,7 @@ h2{
   grid-gap: 10px;
   background-color: #252C38;
   padding: 20px;
+  width: 100%;
   justify-content: center;
   display: inline-block;
 
@@ -385,6 +386,7 @@ h2{
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
+  width: 100%;
   display: inline-block;
 }
 }
