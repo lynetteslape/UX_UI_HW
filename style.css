@@ -61,7 +61,7 @@ section{
 
 .flex-container {
   display: flex;
-  width: 100%;
+  justify-content: center;
 }
 
 .flex-container > div {
@@ -69,8 +69,7 @@ section{
   margin: 5px;
   padding: 10px;
   font-size: 30px;
-  width: 100%;
-
+justify-content: center;
 }
 
 footer{
@@ -165,19 +164,19 @@ h2{
 }
 .grid-container {
   display: grid;
-  grid-template-columns: 362px 362px 262px 362px;
+  grid-template-columns: 262px 262px 262px 262px;
   grid-gap: 10px;
   background-color: #252C38;
-  padding: 10px;
-    width: 100%;
+  padding: 20px;
+  justify-content: center;
   }
 
 .grid-container > div {
   background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
   padding: 20px 0;
-    width: 100%;
   font-size: 30px;
+  justify-content: center;
 }
 
 /* Float four columns side by side */
@@ -370,11 +369,12 @@ h2{
 @media only screen and (max-width: 1200px) {
 .grid-container {
   display: grid;
-  grid-template-columns: 372px 372px 272px 372px;
+  grid-template-columns: 272px 272px 272px 272px;
   grid-gap: 10px;
   background-color: #252C38;
-  padding: 10px;
-    width: 100%;
+  padding: 20px;
+  width: 100%;
+  justify-content: center;
   display: inline-block;
 
   }
@@ -385,8 +385,8 @@ h2{
   background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
   padding: 20px 0;
-    width: 100%;
   font-size: 30px;
+  width: 100%;
   display: inline-block;
 }
 }
@@ -395,11 +395,12 @@ h2{
 @media only screen and (max-width: 900px) {
 .grid-container {
   display: grid;
-  grid-template-columns: 372px 372px 272px 372px;
+  grid-template-columns: 272px 272px 272px 272px;
   grid-gap: 10px;
   background-color: #252C38;
-  padding: 10px;
-    width: 100%;
+  padding: 20px;
+  width: 100%;
+  justify-content: center;
   display: inline-block;
 
   }
@@ -411,7 +412,7 @@ h2{
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
-    width: 100%;
+  width: 100%;
   display: inline-block;
 }
 }
@@ -419,14 +420,76 @@ h2{
 @media only screen and (max-width: 700px) {
 .grid-container {
   display: grid;
-  grid-template-columns: 372px 372px 272px 372px;
+  grid-template-columns: 272px 272px 272px 272px;
   grid-gap: 10px;
   background-color: #252C38;
-  padding: 10px;
-    width: 100%;
+  padding: 20px;
+  width: 100%;
+  justify-content: center;
   display: inline-block;
 
   }
+}
+
+@media only screen and (max-width: 700px) {
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  width: 100%;
+  display: inline-block;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.grid-container {
+  display: grid;
+  grid-template-columns: 272px 272px 272px 272px;
+  grid-gap: 10px;
+  background-color: #252C38;
+  padding: 20px;
+  justify-content: center;
+  width: 100%;
+  display: inline-block;
+
+  }
+}
+
+@media only screen and (max-width: 600px) {
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  width: 100%;
+  display: inline-block;
+}
+}
+
+@media only screen and (max-width: 500px) {
+.grid-container {
+  display: grid;
+  grid-template-columns: 272px 272px 272px 272px;
+  grid-gap: 10px;
+  background-color: #252C38;
+  padding: 20px;
+  width: 100%;
+  justify-content: center;
+  display: inline-block;
+
+  }
+}
+
+@media only screen and (max-width: 500px) {
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  width: 100%;
+  display: inline-block;
+}
 }
 
 @media only screen and (max-width: 768px) {
@@ -435,71 +498,12 @@ h2{
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
-    width: 100%;
+  width: 100%;
   display: inline-block;
 }
 }
 
 @media only screen and (max-width: 992px) {
-.grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
-    width: 100%;
-  display: inline-block;
-}
-}
-
-@media only screen and (max-width: 700px) {
-.grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
-    width: 100%;
-  display: inline-block;
-}
-}
-
-@media only screen and (max-width: 600px) {
-.grid-container {
-  display: grid;
-  grid-template-columns: 372px 372px 272px 372px;
-  grid-gap: 10px;
-    width: 100%;
-  background-color: #252C38;
-  padding: 10px;
-  display: inline-block;
-
-  }
-}
-
-@media only screen and (max-width: 600px) {
-.grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
-  width: 100%;
-  display: inline-block;
-}
-}
-
-@media only screen and (max-width: 500px) {
-.grid-container {
-  display: grid;
-  grid-template-columns: 372px 372px 272px 372px;
-  grid-gap: 10px;
-  background-color: #252C38;
-  padding: 10px;
-  width: 100%;
-  display: inline-block;
-
-  }
-}
-
-@media only screen and (max-width: 500px) {
 .grid-container > div {
   background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
