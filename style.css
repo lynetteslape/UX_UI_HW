@@ -35,7 +35,7 @@ li{
   background-color: ;
   display: inline-block;
   position: top;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .heroimage{
@@ -155,7 +155,7 @@ h3{
   background-color: #04AA6D;
   border: none;
   border-radius: 35px;
-  padding: 15px 32px;
+  padding: 17px 23px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -387,7 +387,7 @@ p{
   justify-content: center;
   padding: 20px;
   font-family: 'Alata', sans-serif;
-    font-size: 17px;
+    font-size: 18px;
 }
 }
 
@@ -399,7 +399,7 @@ a{
 
 @media only screen and (max-width: 500px) {
 h1{
-  font-size: 22px;
+  font-size: 28px;
   font-family: 'Roboto Slab', serif;
   padding: 30px;
 }
@@ -407,7 +407,7 @@ h1{
 
 @media only screen and (max-width: 500px) {
 h2{
- font-size: 18px;
+ font-size: 20px;
   font-family: 'Roboto Slab', serif;
   padding: 30px;
 }
