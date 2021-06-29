@@ -1,3 +1,4 @@
+<script>
 // Get the modal
 var modal = document.getElementById("myModal");
 
@@ -34,3 +35,5 @@ setTimeout(function () {
 }
 brakechain();
 setInterval(brakechain, 2000);
+
+</script>
