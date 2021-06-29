@@ -25,6 +25,10 @@ window.onclick = function(event) {
   }
 }
 
+</script>
+
+
+<script>
 function brakechain() {
 var a;
 a = document.getElementById("div1");
