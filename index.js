@@ -1,4 +1,3 @@
-<script>
 // Get the modal
 var modal = document.getElementById("myModal");
 
@@ -25,10 +24,6 @@ window.onclick = function(event) {
   }
 }
 
-</script>
-
-
-<script>
 function brakechain() {
 var a;
 a = document.getElementById("div1");
@@ -39,5 +34,3 @@ setTimeout(function () {
 }
 brakechain();
 setInterval(brakechain, 2000);
-
-</script>
