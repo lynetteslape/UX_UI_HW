@@ -30,7 +30,31 @@
       <div class"flex">
       <h1>UX/UI Case Study</h1>
       <hr>
-<p>UX/UI Skills<button style="font-size:18px; padding: 10px; background-color: #8299C4; color: white;" class="button"><a href="UX_UI_skills.html">Learn More</button></a></p>
+
+      <button class="accordion">USER RESEARCH:</button>
+  <div class="panel">
+    <p>The user research is to design each component such as with journey maps, storyboards, by gathering information with user tests this helps with the redesign to better analyse and assess the content.</p>
+  </div>
+
+  <button class="accordion">USER EMPATHY:</button>
+  <div class="panel">
+    <p>The user empathy is best formed after user tests when there is a better idea of who the user is that uses the website.</p>
+  </div>
+
+  <button class="accordion">QUALITATIVE INTERVIEWS:</button>
+  <div class="panel">
+    <p>My approach to interviewing is zoom meetings at this time and giving the interviewee steps to go through the design. I like to give a scenario while interviewing individuals in order to give each person a better understanding of my design thought process.</p>
+  </div>
+
+  <button class="accordion">TOOLS:</button>
+  <div class="panel">
+ <p><li style="padding:10px; margin-left: 70px; margin-right: 70px;">Paper and Pen</li>
+ <li style="padding:10px; margin-left: 70px; margin-right: 70px;">Adobe XD</li>
+ <li style="padding:10px; margin-left: 70px; margin-right: 70px;">Figma</li>
+ <li style="padding:10px; margin-left: 70px; margin-right: 70px;">Google Drive</li>
+ <li style="padding:10px; margin-left: 70px; margin-right: 70px;">Photoshop</li></p>
+  </div>
+
       <h2>Government Agency Redesign Case Study</h2>
       <p>In the redesign of the Department
 of Agriculture.  One thing that was needed was showing all the topics on the homepage in a image slider. This report shows four weeks of UI research that evaluates the Department of Agriculture. Each design component is coupled together showing various user research that includes wireframes, a proto-persona, new site navigation with card sorting, and clickable prototypes that demonstrate the homepage redesign of the Department of Agriculture. My role & responsibilites
@@ -39,12 +63,12 @@ were listing every topics in a image slider on the homepage for a cleaner, crisp
 <h3 style="padding: 15px;";>Homepage redesign</h3>
 <img src="government_agency.png" width="300px" height="200" padding="15px">
       <br />
-      <p><button style="font-size:18px; padding: 10px; background-color: #8299C4; color: white;" class="button"><a href="government_agency_case_study.html">Learn More</button></a>
+       <p><button style="font-size:18px; padding: 10px; background-color: #8299C4; color: white;" class="button"><a href="government_agency_case_study.html">Learn More</button></a>
 
         <button style="font-size:18px; padding: 10px; background-color: #8299C4; color: white;" class="button"><a href="UX_UI_Portfolio.pdf">Print Portfolio</button></a></p>
         <br />
- <hr>
 
+ <hr>
 
 <div class="grid">
  <h2>Nonprofit Redesign Case Study</h2>
@@ -54,13 +78,13 @@ nonprofit. My main responsibiity was storyboard, user research with nonprofit, a
 
 <h3 style="padding: 15px;">Homepage redesign</h3>
 <img src="nonprofit.png" width="300px" height="200" float="center" padding="15px">
-           <br />
+          <br />
         <p><button style="font-size:18px; padding: 10px; background-color: #8299C4; color: white;" class="button"><a href="nonprofit_redesign_case_study.html">Learn More</button></a>
          <button style="font-size:18px; padding: 10px; background-color: #8299C4; color: white;" class="button"><a href="UX_UI_Portfolio.pdf">Print Portfolio</button></a></p>
            <br />
-</section>
-</div>
 
+</div>
+</section>
            <div class="inline-block" style="background-color: #8299C4; padding: 5px; width: 100%; border-radius: 5px;">
             <li style="display: inline-block; font-size: 16px; color: #252C38;"><a href="resume.html">Resume</a></li>
             <li style="color: #252C38; display: inline-block;"><strong>Follow me on Social Media:</strong></li>
@@ -69,5 +93,22 @@ nonprofit. My main responsibiity was storyboard, user research with nonprofit, a
         <a href="https://www.linkedin.com/in/lynette-slape-35a262122" class="fa fa-linkedin"></a>
       </div>
 </div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}
+</script>
     </body>
     </html>

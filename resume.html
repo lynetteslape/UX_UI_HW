@@ -20,6 +20,8 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+<script src="index.js"></script>
 </head>
 
       <!-- Page Container -->
@@ -65,6 +67,29 @@
               updating WordPress websites.Technical: Adobe Photoshop, Adobe Illustrator, Adobe InDesign,
               WordPress, HTML5/CSS3</p>
 
+<h1>Hover over or click on list of my skills</h1>
+<ul>
+  <li class="fade">Adobe Creative Suite</li>
+  <li class="fade">Adobe Photoshop</li>
+  <li class="fade">Adobe InDesign</li>
+  <li class="fade">Adobe Illustrator</li>
+  <li class="fade">Web Design</li>
+  <li class="fade">WordPress</li>
+  <li class="fade">HTML5/CSS3</li>
+  <li class="fade">UX/UI</li>
+  <li class="fade">Figma</li>
+  <li class="fade">Prototype Design</li>
+  <li class="fade">Storyboards</li>
+  <li class="fade">Visual Design</li>
+  <li class="fade">Print Design</li>
+  <li class="fade">Page-Layout</li>
+  <li class="fade">Book Design</li>
+  <li class="fade">Flyer Design</li>
+  <li class="fade">Poster Design</li>
+  <li class="fade">Branding</li>
+  <li class="fade">Logo Design</li>
+  <li class="fade">Business Card Design</li>
+</ul>
 
           <br>
         </div>
@@ -79,9 +104,13 @@
         <div class="w3-container">
           <h5 class="w3-opacity"><b>Volunteer Graphic Designer / https://brightmindenrichment.org</b></h5>
           <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>December 2021 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
-          <li>Graphic Design WordPress Assistant.</li>
-          <li>Creating a more simple logo for Bright Mind Enrichment.</li>
-          <li>Designed a flyer and business card</li>
+          <h6>Hover over or click on list of my tasks</h6>
+          <li class="fade">Graphic Assistant</li>
+          <li class="fade">Graphic Design WordPress Assistant.</li>
+          <li class="fade">Logo Design</li>
+          <li class="fade">Creating a more simple logo for Bright Mind Enrichment.</li>
+          <li class="fade"> Layout Design</li>
+          <li class="fade">Designed a flyer and business card</li>
           <hr>
         </div>
         <div class="w3-container">
@@ -99,10 +128,13 @@ different areas on the site.</p>
         <div class="w3-container">
           <h5 class="w3-opacity"><b>Graphic Design WordPress Assistant / http://tracktowngoldens.com</b></h5>
           <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>March 2019 - Current</h6>
-          <li>Updated content to WordPress websites, expanding company reach and increasing
+          <h6>Hover over list or click on my tasks</h6>
+          <li class="fade">Graphic Assistant</li>
+          <li class="fade">Updated content to WordPress websites, expanding company reach and increasing
           brand awareness by 6% in 3 months.</li>
-          <li>Added photographs</li>
-          <li>Cleaned up some layout issues</li>
+          <li>Graphic Maintenance</li>
+          <li class="fade">Added photographs</li>
+          <li class="fade">Cleaned up some layout issues</li>
           <p>Key Accomplishments:
 Added meta tags and key phrases to get https://olivestreethouse.com website, ensuring this was the first
 item when searched on google, increasing overall brand awareness </p><br>
@@ -147,6 +179,23 @@ item when searched on google, increasing overall brand awareness </p><br>
       <a href="https://www.instagram.com/lynetteslape/?hl=en" class="fa fa-instagram"></a>
         <a href="https://www.linkedin.com/in/lynette-slape-35a262122" class="fa fa-linkedin"></a>
       </div>
+
+
+      <script>
+  $( "li" )
+    .odd()
+      .hide()
+    .end()
+    .even()
+      .hover(function() {
+        $( this )
+          .toggleClass( "active" )
+          .next()
+            .stop( true, true )
+            .slideToggle();
+      });
+  </script>
+
 
 </body>
 </html>
