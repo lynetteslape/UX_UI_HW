@@ -49,7 +49,7 @@ nav{
   margin: 0;
   padding: 0;
   width: 100%;
-  text-align: center;
+  text-align: left;
   overflow: hidden;
   text-decoration: none;
   background-color: ;
@@ -97,7 +97,7 @@ justify-content: center;
 footer{
   background-color: ;
   color: white;
-  text-align: center;
+  text-align: left;
   padding: 15px;
   text-decoration: none;
   position; bottom;
@@ -611,7 +611,7 @@ footer{
   position; bottom;
   display: block;
   padding: 5px 8px;
- text-align: center;
+ text-align: left;
  text-decoration: none;
 }
 }
@@ -621,7 +621,7 @@ nav{
   position; bottom;
   display: block;
   padding: 5px 8px;
- text-align: center;
+ text-align: left;
  text-decoration: none;
 }
 }
